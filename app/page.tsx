@@ -95,12 +95,12 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center h-full relative w-full md:w-1/2 order-1 md:order-2">
+        <div className="flex flex-col justify-center items-center h-full relative w-full md:w-1/2 order-1 md:order-2 mt-10 md:mt-0">
           <Image
             src="/davi-moura.png"
             alt="Davi Moura"
             fill
-            className="object-contain drop-shadow-lg pt-10"
+            className="object-contain drop-shadow-lg"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority
           />
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <div id="projects" className="py-16">
+      <div id="projects" className="py-16 px-10">
         <div className="container mx-auto px-4">
           <h2 className="text-5xl font-bold mb-12">Public Personal Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
